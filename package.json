@@ -1,0 +1,9 @@
+{
+  "name": "terrance-harden-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio site for Terrance Harden — director, editor, motion designer",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
