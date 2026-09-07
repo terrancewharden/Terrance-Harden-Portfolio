@@ -11,6 +11,7 @@ window.SITE = {
   location: "Philadelphia, PA",
   email: "terrancewharden@gmail.com",
   heroVideo: "nQigmLMxWUc", // YouTube ID used as the muted background loop
+  heroPoster: "hq2.jpg",    // still shown before playback / on phones: hq1.jpg, hq2.jpg, hq3.jpg = 25/50/75% frames
   bio: [
     "I am a motion graphic designer, video editor, and filmmaker based in Philadelphia with over 12 years of experience. I've directed, edited, and provided motion graphics on both films and television commercials for household names like Sotheby's, Common (The Artist), Kia, BMW, and many more.",
     "My strong work ethic comes from my continuous desire to create striking and visually pleasing work."
@@ -42,6 +43,7 @@ window.SITE = {
     { title: "Fatally Flawless — Trailer (Instagram cut)", url: "https://www.youtube.com/watch?v=cXC4ApkTMXs", cat: "film" },
     { title: "Fatally Flawless — Rell & Natalie", url: "https://www.youtube.com/watch?v=lZ50BgZbaeE", cat: "film", note: "Scene: mob boss Natalie finally meets dealer Rell." },
     { title: "Fatally Flawless — The Kidnap", url: "https://www.youtube.com/watch?v=1Y8xVYw_uOM", cat: "film", note: "Scene: Raven is taken once again by her controlling ex." },
+    { title: "The Sketchbook", url: "https://youtu.be/0vu9sTO993E", cat: "film", note: "Short film. Directed & edited. Official selection, NIFF (Nice International Film Festival).", featured: true },
 
     // ── MOTION GRAPHICS ──
     { title: "Auto Commercial", url: "https://youtu.be/YBnIisGa2NI", cat: "motion", featured: true },
