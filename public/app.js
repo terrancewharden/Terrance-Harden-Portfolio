@@ -55,7 +55,7 @@
   (function hero() {
     const bg = $("#heroBg");
     const poster = el("div", "poster");
-    poster.style.backgroundImage = `url(https://img.youtube.com/vi/${S.heroVideo}/maxresdefault.jpg)`;
+    poster.style.backgroundImage = `url(https://img.youtube.com/vi/${S.heroVideo}/${S.heroPoster || "hq2.jpg"})`; // hq1/hq2/hq3 = frames at 25/50/75%
     bg.appendChild(poster);
     if (window.matchMedia("(max-width:640px)").matches || window.matchMedia("(prefers-reduced-motion:reduce)").matches) return;
     const f = el("iframe");
