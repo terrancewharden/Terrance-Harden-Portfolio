@@ -61,7 +61,7 @@
     const f = el("iframe");
     f.src = `https://www.youtube-nocookie.com/embed/${S.heroVideo}?autoplay=1&mute=1&controls=0&loop=1&playlist=${S.heroVideo}&playsinline=1&rel=0&modestbranding=1&iv_load_policy=3&disablekb=1`;
     f.allow = "autoplay; encrypted-media"; f.tabIndex = -1; f.title = "Background reel";
-    f.addEventListener("load", () => setTimeout(() => bg.classList.add("ready"), 1500));
+    f.addEventListener("load", () => setTimeout(() => bg.classList.add("ready"), 2500));
     bg.appendChild(f);
   })();
 
