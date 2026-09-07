@@ -28,7 +28,7 @@ http.createServer((req, res) => {
     const isHtml = ext === ".html";
     res.writeHead(200, {
       "Content-Type": TYPES[ext] || "application/octet-stream",
-      "Cache-Control": isHtml ? "no-cache" : "public, max-age=31536000, immutable",
+      "Cache-Control": isHtml ? "no-cache" : "public, max-age=3600",
       "X-Content-Type-Options": "nosniff",
       "Referrer-Policy": "strict-origin-when-cross-origin"
     });
