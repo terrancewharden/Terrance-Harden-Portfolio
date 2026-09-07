@@ -59,9 +59,25 @@
     bg.appendChild(poster);
     if (window.matchMedia("(max-width:640px)").matches || window.matchMedia("(prefers-reduced-motion:reduce)").matches) return;
     const f = el("iframe");
-    f.src = `https://www.youtube-nocookie.com/embed/${S.heroVideo}?autoplay=1&mute=1&controls=0&loop=1&playlist=${S.heroVideo}&playsinline=1&rel=0&modestbranding=1&iv_load_policy=3&disablekb=1`;
+    f.src = `https://www.youtube-nocookie.com/embed/${S.heroVideo}?autoplay=1&mute=1&controls=0&loop=1&playlist=${S.heroVideo}&playsinline=1&rel=0&modestbranding=1&iv_load_policy=3&disablekb=1&enablejsapi=1&origin=${encodeURIComponent(location.origin)}`;
     f.allow = "autoplay; encrypted-media"; f.tabIndex = -1; f.title = "Background reel";
-    f.addEventListener("load", () => setTimeout(() => bg.classList.add("ready"), 2500));
+    // Only reveal the video once YouTube reports it is actually playing (state 1);
+    // if autoplay is blocked we keep the poster instead of showing a dead player.
+    let timer;
+    const reveal = () => { bg.classList.add("ready"); clearTimeout(timer); };
+    window.addEventListener("message", e => {
+      if (!/youtube/.test(e.origin)) return;
+      try {
+        const d = JSON.parse(e.data);
+        const st = d.event === "onStateChange" ? d.info : d.info && d.info.playerState;
+        if (st === 1) reveal();
+      } catch {}
+    });
+    f.addEventListener("load", () => {
+      const ping = () => f.contentWindow && f.contentWindow.postMessage(JSON.stringify({ event: "listening", id: 1, channel: "widget" }), "*");
+      ping(); timer = setInterval(ping, 1000);
+      setTimeout(() => clearInterval(timer), 15000);
+    });
     bg.appendChild(f);
   })();
 
