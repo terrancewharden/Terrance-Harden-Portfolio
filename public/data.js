@@ -38,12 +38,11 @@ window.SITE = {
     // ── FILM ──
     { title: "Between Friends — Trailer", url: "https://youtu.be/JWQqhFrHwB0", cat: "film", note: "Feature film. Directed & edited. Now streaming on Tubi.", featured: true },
     { title: "The Good Wife — Trailer", url: "https://youtu.be/tozeLGWI8C8", cat: "film", note: "Feature film. Directed & edited. Now streaming on Tubi.", featured: true },
-    { title: "Fatally Flawless — Teaser Trailer", url: "https://www.youtube.com/watch?v=RRGReafoDBk", cat: "film", note: "Teaser for a Philadelphia-based indie production." },
+    { title: "The Sketchbook", url: "https://youtu.be/0vu9sTO993E", cat: "film", note: "Short film. Directed & edited. Official selection, NIFF (Nice International Film Festival).", featured: true },
     { title: "Fatally Flawless — Private Trailer", url: "https://www.youtube.com/watch?v=7YCcuBOwhZo", cat: "film", note: "Extended trailer cut for potential investors." },
     { title: "Fatally Flawless — Trailer (Instagram cut)", url: "https://www.youtube.com/watch?v=cXC4ApkTMXs", cat: "film" },
     { title: "Fatally Flawless — Rell & Natalie", url: "https://www.youtube.com/watch?v=lZ50BgZbaeE", cat: "film", note: "Scene: mob boss Natalie finally meets dealer Rell." },
     { title: "Fatally Flawless — The Kidnap", url: "https://www.youtube.com/watch?v=1Y8xVYw_uOM", cat: "film", note: "Scene: Raven is taken once again by her controlling ex." },
-    { title: "The Sketchbook", url: "https://youtu.be/0vu9sTO993E", cat: "film", note: "Short film. Directed & edited. Official selection, NIFF (Nice International Film Festival).", featured: true },
 
     // ── MOTION GRAPHICS ──
     { title: "Auto Commercial", url: "https://youtu.be/YBnIisGa2NI", cat: "motion", featured: true },
