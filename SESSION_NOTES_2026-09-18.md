@@ -35,4 +35,5 @@ Added one `AI + Product` navigation link to the director portfolio homepage.
 - Tested desktop and mobile layouts.
 - Confirmed mobile menu behavior.
 - Confirmed HTML, CSS, and JavaScript routes return HTTP 200 with correct content types.
-- No production deployment or GitHub push completed in this session yet.
+- Published to GitHub `main` and deployed through Railway.
+- Verified the production homepage, `/ai`, and all four case-study routes return HTTP 200 with the expected page titles.
