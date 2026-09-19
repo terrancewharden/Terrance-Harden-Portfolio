@@ -25,6 +25,10 @@ Replaced the placeholder evidence area on the Sama's Sleepytime Stories case stu
 - Added two new workflow screenshots captured by Terrance:
   - the CapCut timeline as proof of scene assembly, narration, ambience, music, and final editorial work
   - the Claude multi-assistant plan, explicitly labeled as an agent blueprint rather than completed autonomous production
+- Added a complete lip-sync quality-control example from `Graphic assets\morphing`:
+  - documented the visible character and prop drift across the failed generation
+  - showed the corrected isolated Sama layer as a looping video
+  - explained the three-part fix: isolate the character, add negative prompts, and composite the cloud afterward
 
 ## Verification
 
