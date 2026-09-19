@@ -40,3 +40,30 @@ Replaced the placeholder evidence area on the Sama's Sleepytime Stories case stu
 ## Source archive
 
 `H:\Jacie and the magic shovel\Graphic assets` and its related project folders remain the source of truth for original production files. The website stores optimized copies only.
+
+## Portfolio card covers and Pocket Spades proof
+
+- Replaced the abstract color panels on all four AI portfolio cards with optimized project imagery:
+  - live BuildCast product screen
+  - live Pocket Spades mode-selection screen
+  - live Eligo story-room screen
+  - the Sama's Sleepytime Stories title frame supplied by Terrance
+- Preserved the large two-letter project marks over the imagery, including `SS` on the Sama card.
+- Replaced the abstract Pocket Spades case-study cover with the live playable build.
+- Replaced all Pocket Spades evidence placeholders with labeled proof:
+  - playable mode-selection screen
+  - directed four-player table concept
+  - physical card-and-pocket prototype
+  - promotional brand art
+- Added three documented quality-control cases:
+  - 11 sandbags incorrectly resolving to 4 Pocket Books; clarified as 2 complete books plus 3 remaining sandbags and protected with a regression test
+  - Pocket cards remaining hidden at round results; corrected to reveal the full Pocket after play
+  - mobile table collisions found through real-device testing; corrected through responsive repositioning and sizing
+- Kept the bug screenshots explicitly labeled as observed failures so they demonstrate diagnosis and correction rather than being mistaken for the current product state.
+
+## Verification for this update
+
+- Confirmed the updated homepage and Pocket Spades case study render at desktop and mobile widths.
+- Confirmed all seven Pocket Spades images load without broken sources.
+- Confirmed the four project-card images are optimized WebP files at 1600 × 900.
+- Confirmed the working tree passes the whitespace/error check before deployment.
