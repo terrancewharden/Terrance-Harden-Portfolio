@@ -22,6 +22,9 @@ Replaced the placeholder evidence area on the Sama's Sleepytime Stories case stu
   - separation of character identity from scene composition
   - separate motion prompts for performance, object movement, and camera behavior
 - Kept the full story and prompt library off the public page to protect the working material and avoid overwhelming reviewers.
+- Added two new workflow screenshots captured by Terrance:
+  - the CapCut timeline as proof of scene assembly, narration, ambience, music, and final editorial work
+  - the Claude multi-assistant plan, explicitly labeled as an agent blueprint rather than completed autonomous production
 
 ## Verification
 
