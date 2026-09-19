@@ -17,6 +17,11 @@ Replaced the placeholder evidence area on the Sama's Sleepytime Stories case stu
   - Whispering Woods finished frame
 - Replaced all three "reserved" evidence placeholders with captioned production proof.
 - Added responsive proof-gallery and video-cover styles.
+- Added a public-safe excerpt of the production system from `JACIES STORY AI TEMPLATE`:
+  - 30–40-scene story architecture with 7–10-second narration targets
+  - separation of character identity from scene composition
+  - separate motion prompts for performance, object movement, and camera behavior
+- Kept the full story and prompt library off the public page to protect the working material and avoid overwhelming reviewers.
 
 ## Verification
 
