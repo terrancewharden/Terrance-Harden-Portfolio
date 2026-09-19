@@ -67,3 +67,9 @@ Replaced the placeholder evidence area on the Sama's Sleepytime Stories case stu
 - Confirmed all seven Pocket Spades images load without broken sources.
 - Confirmed the four project-card images are optimized WebP files at 1600 × 900.
 - Confirmed the working tree passes the whitespace/error check before deployment.
+
+## Pocket Spades walkthrough
+
+- Added Terrance's published Pocket Spades walkthrough (`LZ-Kdw6gt8Y`) as the lead evidence on the case study.
+- Used YouTube's privacy-enhanced embed domain and kept a direct YouTube link beneath the player.
+- Positioned the video before the still-image proof so reviewers can see the working experience before reading the production and QA evidence.
