@@ -73,3 +73,9 @@ Replaced the placeholder evidence area on the Sama's Sleepytime Stories case stu
 - Added Terrance's published Pocket Spades walkthrough (`LZ-Kdw6gt8Y`) as the lead evidence on the case study.
 - Used YouTube's privacy-enhanced embed domain and kept a direct YouTube link beneath the player.
 - Positioned the video before the still-image proof so reviewers can see the working experience before reading the production and QA evidence.
+
+## Corrected scoring proof
+
+- Added Terrance's current round-results capture as the explicit “after” state for the privacy fix.
+- The new evidence shows all four players' Pocket cards revealed, sandbags converted into groups of four, remaining sandbags identified, Pocket Books combined with table tricks, and the final score summary.
+- Kept the older hidden-card results capture beside the explanation as the documented “before” state.
