@@ -84,3 +84,17 @@ Replaced the placeholder evidence area on the Sama's Sleepytime Stories case stu
 
 - Added Terrance's current landscape-phone capture as the explicit “after” state for the mobile collision fix.
 - Paired it with the earlier real-device screenshot so reviewers can compare the overlapping layout against the corrected separation of player areas, Pockets, center trick, and hand.
+
+## Eligo live-product evidence
+
+- Navigated the current live Eligo build independently and documented the solo-story flow.
+- Added six verified product states to the Eligo case study:
+  - Story Room with daily material, Originals, session filter, and genre selection
+  - the Originals shelf with premise, duration, Free/CP access, and replay framing
+  - generated fantasy opening with chapter and remaining-story indicators
+  - voice-interface guide explaining narration and spoken or tapped A/B choices
+  - the first branching decision
+  - chapter-two consequence after selecting the road, followed by a new decision
+- Replaced the abstract Eligo case-study cover with the live branching-choice interface.
+- Updated the genre count from 10 to 11 to match the current deployed product.
+- Explicitly scoped the captures to solo mode. Party Mode was omitted, and Wildword was not represented because it remained locked in the fresh zero-CP session.
