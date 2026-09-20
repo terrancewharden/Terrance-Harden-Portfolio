@@ -98,3 +98,21 @@ Replaced the placeholder evidence area on the Sama's Sleepytime Stories case stu
 - Replaced the abstract Eligo case-study cover with the live branching-choice interface.
 - Updated the genre count from 10 to 11 to match the current deployed product.
 - Explicitly scoped the captures to solo mode. Party Mode was omitted, and Wildword was not represented because it remained locked in the fresh zero-CP session.
+
+## BuildCast live-product and output evidence
+
+- Navigated the current public BuildCast prototype and documented the working product structure:
+  - Timelapse, Bid Mode, My Projects, My Portfolio, and Brand Settings navigation
+  - before/after upload flow
+  - 12 project types
+  - four platform formats
+  - 5, 10, 15, and 30-second output choices
+  - Shot Guide instructions for people, framing, matching angles, AI quality, and social formats
+  - Bid Mode input and finish-description workflow
+- Replaced the abstract BuildCast cover with the live AI Timelapse configuration screen.
+- Replaced all three evidence placeholders with eight labeled product/output artifacts.
+- Recovered and embedded two archived BuildCast exports from `Downloads`:
+  - 5.1-second landscape exterior-job timelapse
+  - 10-second vertical interior-renovation timelapse
+- Added two saved Bid Mode render examples as output evidence.
+- Kept explicit boundaries around the proof: archived exports demonstrate product behavior and formats, not customers, audience performance, sales, or bid wins. Placeholder testimonials and marketing statistics remain excluded.
